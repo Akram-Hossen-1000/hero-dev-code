@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*shared style*/
+
+.font-rubik{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+}
+.logo h2{
+    font-size: 45px;
+    font-weight: 900;
+}
+.color-orange{
+    color: #FD6E0A;
+}
+.btn{
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.banner-btn{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/*main style*/
+
+header{
+    background-color: white;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+nav{
+    width: 71%;
+    max-width: 1153px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 39px;
+    align-items: center;
+}
+nav .menu a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+#banner{
+    margin: 46px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-content {
+    max-width: 585px;
+}
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 800;
+    color: #832020;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1{
+    font-size: 46px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+#banner .banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
+}
